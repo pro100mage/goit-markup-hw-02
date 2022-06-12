@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900);
 body {
   color: #212121;
+  font-family: 'Roboto', sans-serif;
 }
 a {
   text-decoration: none;
@@ -27,7 +28,8 @@ ul {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 119%;
+  line-height: 1.19;
+  color: #000;
 }
 .logo-color {
   color: #2196f3;
@@ -36,19 +38,24 @@ ul {
   display: flex;
   align-items: center;
 }
+
 .header-nav {
   list-style: none;
   display: flex;
   padding: 0;
 }
+.header-nav_list a.current {
+  color: #2196f3;
+}
 .header-nav_list:not(:last-child) {
   margin-right: 50px;
 }
+
 .header-nav_list a {
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
   font-size: 14px;
-  line-height: 114%;
+  line-height: 1.14;
   color: #212121;
 }
 .header-nav_list a:hover {
@@ -82,20 +89,18 @@ ul {
   background: #2f303a;
 }
 .service-order_title {
-  font-family: 'Roboto', sans-serif;
   font-weight: 900;
   font-size: 44px;
-  line-height: 133%;
+  line-height: 1.33;
   text-transform: uppercase;
   color: #fff;
   margin: 0;
   letter-spacing: 0.06em;
 }
 .service-order_button {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
-  line-height: 188%;
+  line-height: 1.88;
   width: 200px;
   height: 50px;
   margin-top: 30px;
@@ -113,7 +118,7 @@ ul {
 /*section Text*/
 .text {
   display: flex;
-  background: #e5e5e5;
+  background: #fff;
 }
 
 .text-block {
@@ -135,18 +140,16 @@ li.text-block_list:last-child {
 }
 
 .text-block_title {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 14px;
-  line-height: 114%;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin: 0 0 10px 0;
 }
 .text-block_subtitle {
-  font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  line-height: 171%;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
   margin: 0;
@@ -157,15 +160,14 @@ li.text-block_list:last-child {
 .our-work {
   display: flex;
   text-align: center;
-  background: #e5e5e5;
+  background: #fff;
   padding-bottom: 94px;
 }
 
 .our-work_title {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 36px;
-  line-height: 140%;
+  line-height: 1.4;
   letter-spacing: 0.03em;
   margin: 0 0 45px 0;
 }
@@ -193,10 +195,9 @@ li.our-work_image:last-child {
 }
 .our-team_title {
   margin: 94px 0 40px 0;
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 36px;
-  line-height: 116.67%;
+  line-height: 1.16;
   letter-spacing: 0.03em;
 }
 
@@ -222,17 +223,15 @@ li.our-team-image:last-child {
 }
 
 .our-team_name {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 119%;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   margin: 30px 0 10px 0;
 }
 .our-team_profession {
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  line-height: 119%;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #757575;
   margin: 0 0 30px 0;
@@ -251,7 +250,7 @@ address {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #fff;
 }
@@ -261,9 +260,8 @@ address {
   margin: 0;
 }
 .footer-address {
-  font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  line-height: 171%;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   margin-bottom: 5px;
 }
@@ -275,9 +273,8 @@ address {
   color: #2196f3;
 }
 .footer-mail {
-  font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  line-height: 171%;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   margin-bottom: 5px;
 }
@@ -289,9 +286,8 @@ address {
   color: #2196f3;
 }
 .footer-phone {
-  font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  line-height: 171%;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .footer-phone a {
@@ -327,8 +323,7 @@ address {
 .filter-menu_list span {
   color: inherit;
   font-weight: 500;
-  font-family: 'Roboto', sans-serif;
-  line-height: 162%;
+  line-height: 1.62;
   font-size: 16px;
 }
 .filter-button {
@@ -372,17 +367,16 @@ address {
   vertical-align: middle;
 }
 .card-icon_title {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 200%;
+  line-height: 2;
   letter-spacing: 0.06em;
   padding: 0 24px;
 }
 .card-icon_text {
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  line-height: 188%;
+  line-height: 1.88;
   letter-spacing: 0.03em;
   padding: 0 24px;
+  color: #757575;
 }
