@@ -52,7 +52,7 @@ ul {
 }
 
 .header-nav_list a {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -69,6 +69,7 @@ ul {
 }
 .header-contacts a {
   color: #757575;
+  letter-spacing: 0.02em;
 }
 .header-contacts a:hover {
   color: #2196f3;
@@ -109,6 +110,7 @@ ul {
   border-radius: 4px;
   color: #fff;
   border: none;
+  letter-spacing: 0.06em;
 }
 .service-order_button:hover {
   opacity: 0.7;
@@ -119,6 +121,18 @@ ul {
 .text {
   display: flex;
   background: #fff;
+}
+.text-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .text-block {
@@ -325,6 +339,8 @@ address {
   font-weight: 500;
   line-height: 1.62;
   font-size: 16px;
+  letter-spacing: 0.03em;
+  cursor: pointer;
 }
 .filter-button {
   border: none;
